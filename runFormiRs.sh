@@ -1,6 +1,11 @@
 #!/bin/sh
+###############################################
+# All codes run into python3 or later versions.
+###############################################
 
+# Downloading miRNA specific all cancer condition data including sequence and expression.
 
+python parseTIE.py
 
 for ii in $(ls *-align.txt_uridylated.txt )
 do
